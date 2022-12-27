@@ -39,9 +39,9 @@
 <h2>Donaciones</h2>
 <p>Somos un equipo de desarrolladores y entusiastas de la inteligencia artificial que hemos creado un Menú de navegación para ayudar a las personas a tener un menú de opciones para navegar y acceder a diferentes contenidos, así como tarjetas para visualizar información de manera organizada y atractiva.</p>
 
-<p>Hemos visto la gran utilidad como el Menú de navegación ha brindado a nuestros usuarios, y queremos seguir ofreciéndoles este valioso código actualizado permanentemente. Sin embargo, para seguir manteniendo y mejorando nuestro sitio web, necesitamos sostenerlo económicamente. Es por eso que te pedimos tu apoyo como donante.</p>
+<p>Hemos visto la gran utilidad de como el Menú de navegación ha brindado a nuestros usuarios, y queremos seguir ofreciéndoles este valioso código actualizado permanentemente. Sin embargo, para seguir manteniendo y mejorando nuestro sitio web, necesitamos sostenerlo económicamente. Es por eso que te pedimos tu apoyo como donante.</p>
 
-<p>Con tu contribución, podremos seguir brindando nuestra interfaz de usuario y chatbot inteligente a todos aquellos que lo necesiten. Además, tu apoyo nos permitirá seguir mejorando y ampliando nuestros servicios, para que nuestro chatbot pueda brindar aún más valor a nuestros usuarios.</p>
+<p>Con tu contribución, podremos seguir brindando nuestro Menú de navegación a todos aquellos que lo necesiten. Además, tu apoyo nos permitirá seguir mejorando y ampliando nuestros servicios, para que nuestro Menú de navegación pueda brindar aún más valor a nuestros usuarios.</p>
 
 <p>Tu donación, por más pequeña que sea, será muy valiosa para nosotros y nos ayudará a seguir brindando este servicio que tantas personas están encontrando útil. Agradecemos de antemano tu apoyo y esperamos que nuestro chatbot pueda ayudarte a ti también en tu día a día.</p>
 
