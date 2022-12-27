@@ -14,7 +14,7 @@ body {
 	justify-content: center; /* centra los elementos hijos horizontalmente */
 	align-items: center; /* centra los elementos hijos verticalmente */
 	height: 100vh; /* establece la altura del elemento al 100% de la ventana del navegador */
-	background-image: url('bg.jpg'); /* establece una imagen de fondo */
+	background-image: url('img/bg.jpg'); /* establece una imagen de fondo */
 	background-size: cover; /* ajusta el tamaño de la imagen de fondo para cubrir toda la ventana del navegador */
 }
 
