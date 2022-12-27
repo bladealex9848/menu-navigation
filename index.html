@@ -1,0 +1,191 @@
+<!-- Declara el tipo de documento como HTML5 -->
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!-- Establece la codificación de caracteres como UTF-8 -->
+		<meta charset="UTF-8" />
+		<!-- Establece la compatibilidad con Internet Explorer -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- Establece la escala inicial y el ancho para dispositivos móviles -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Establece el título de la página -->
+		<title>Menú de navegación</title>
+		<!-- Vincula el archivo de estilo "style.css" -->
+		<link rel="stylesheet" href="style.css" />
+		<!-- Vincula la fuente de iconos de Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+			integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+
+	<body>
+		<!-- Contenedor principal de la página -->
+		<div class="container">
+			<!-- Encabezado de la página -->
+			<header class="nav">
+				<!-- Menú de navegación -->
+				<div class="menu">
+					<!-- Enlaces de navegación -->
+					<a href="#" class="active">Todas</a>
+					<a href="#">Trending Movies</a>
+					<a href="#">Bollywood Movies</a>
+					<a href="#">Web Series</a>
+					<!-- Caja de búsqueda con icono de búsqueda de Font Awesome -->
+					<div class="searchBox">
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+			</header>
+			<!-- Contenido principal de la página -->
+			<div class="main">
+				<!-- Sección de películas populares -->
+				<div class="trendingMovies movies">
+					<p>Trending Movies</p>
+					<!-- Contenedor para las tarjetas de películas -->
+					<div class="cards">
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Avengers">
+							<img src="./hollwoodMovies/avg.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Venom">
+							<img src="./hollwoodMovies/venom.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="London Has Fallen">
+							<img src="./hollwoodMovies/LondonHasFallen.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Dracula">
+							<img src="./hollwoodMovies/dracula.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Hotel Transylvania 2">
+							<img src="./hollwoodMovies/HotelTransylvania2.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="The Expendables 2">
+							<img src="./hollwoodMovies/TheExpendables2.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Point Break">
+							<img src="./hollwoodMovies/PointBreak.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+
+				<!-- Sección de películas de bollywood -->
+				<div class="bollywoodMovies movies">
+					<p>Bollywood Movies</p>
+					<!-- Contenedor para las tarjetas de películas -->
+					<div class="cards">
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="De De Pyaar De">
+							<img src="./bollywoodMovies/DeDePyaarDe.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Badrinath Ki Dulhania">
+							<img src="./bollywoodMovies/BadrinathKiDulhania.jfif" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Rocky Handsome">
+							<img src="./bollywoodMovies/RockyHandsome.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Rustom">
+							<img src="./bollywoodMovies/Rustom.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Two States">
+							<img src="./bollywoodMovies/TwoStates.jfif" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Bhuj">
+							<img src="./bollywoodMovies/Bhuj.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Welcome">
+							<img src="./bollywoodMovies/Welcome.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+
+				<!-- Sección de películas webSeries -->
+				<div class="webSeries movies">
+					<p>Web Series</p>
+					<!-- Contenedor para las tarjetas de películas -->
+					<div class="cards">
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Permanent Roommates">
+							<img src="./webSeries/PermanentRoommates.webp" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Flames">
+							<img src="./webSeries/Flames.jpg" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="Im Mature">
+							<img src="./webSeries/ImMature.webp" alt="" />
+						</div>
+						<!-- Tarjeta de una película -->
+						<div class="card" data-text="KotaFactory">
+							<img src="./webSeries/KotaFactory.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script>
+			// Selecciona todos los elementos de enlace del documento
+			const a = document.querySelectorAll('a');
+
+			// Añade un evento de clic a cada elemento de enlace
+			a.forEach((e) => {
+				e.addEventListener('click', (e) => {
+					// Muestra el contenido de la lista de clases del elemento de enlace que se ha clicado
+					console.log(e.target.classList);
+					// Elimina la clase "active" de todos los elementos de enlace
+					a.forEach((e) => {
+						e.classList.remove('active');
+					});
+					// Si el elemento de enlace que se ha clicado no tiene la clase "active", se le añade
+					if (!e.target.classList.contains('active')) {
+						e.target.classList.add('active');
+					}
+				});
+			});
+		</script>
+
+		<script>
+			const links = document.querySelectorAll('a');
+			const movies = document.querySelectorAll('.movies');
+
+			links.forEach((link) => {
+				link.addEventListener('click', (e) => {
+					// Oculta todas las secciones de películas
+					movies.forEach((movie) => {
+						movie.style.display = 'none';
+					});
+					// Muestra la sección de películas correspondiente
+					if (link.textContent === 'Trending Movies') {
+						document.querySelector('.trendingMovies').style.display = 'block';
+					} else if (link.textContent === 'Bollywood Movies') {
+						document.querySelector('.bollywoodMovies').style.display = 'block';
+					} else if (link.textContent === 'Web Series') {
+						document.querySelector('.webSeries').style.display = 'block';
+					} else {
+						// Si se selecciona el enlace "Todas", muestra todas las secciones de películas
+						movies.forEach((movie) => {
+							movie.style.display = 'block';
+						});
+					}
+				});
+			});
+		</script>
+	</body>
+</html>
